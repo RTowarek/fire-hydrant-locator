@@ -3,6 +3,12 @@
 Fire Hydrant Locator - enter an address or zoom to a location to find the nearest fire hydrants. Limited to fire hydrants located in Poland.
 Fire hydrant data comes from [OpenStreetMap](https://www.openstreetmap.org/).
 
+## Requirements
+
+- Node.js >= 12.x
+- PostgreSQL 13
+- PostGIS 3.x
+
 ## Installation
 
 ```bash
