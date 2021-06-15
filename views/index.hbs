@@ -1,0 +1,49 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Fire Hydrant Locator</title>
+
+    <link
+      rel='stylesheet'
+      href='https://unpkg.com/leaflet@1.7.1/dist/leaflet.css'
+      integrity='sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=='
+      crossorigin=''
+    />
+    <link
+      rel='stylesheet'
+      href='https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css'
+    />
+
+    <link rel='stylesheet' href='index.css' />
+  </head>
+  <body>
+    <div class='banner'>
+      <p><span class='bold'>Welcome!<br /></span>
+        This is an interactive mapping site designed to provide the locations of
+        fire hydrants in Poland.</p>
+    </div>
+    <div id='map'></div>
+    <a
+      class='repo-link'
+      href='https://github.com/RTowarek/fire-hydrant-locator'
+      title='View Source on GitHub'
+      target='_blank'
+      rel='noopener noreferrer'
+    >
+      <img src='/github.png' alt='View Source on GitHub' width='46' />
+    </a>
+
+    <script
+      src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js'
+      integrity='sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=='
+      crossorigin=''
+    ></script>
+    <script
+      src='https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js'
+    ></script>
+
+    <script src='/index.js' type='module'></script>
+  </body>
+</html>
