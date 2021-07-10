@@ -1,6 +1,6 @@
 ## Description
 
-Fire Hydrant Locator - enter an address or zoom to a location to find the nearest fire hydrants. Limited to fire hydrants located in Poland.
+Fire Hydrant Locator - enter an address or zoom in to a location to find the nearest fire hydrants. Limited to fire hydrants located in Poland.
 Fire hydrant data comes from [OpenStreetMap](https://www.openstreetmap.org/).
 
 ## Requirements
@@ -53,4 +53,4 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-Website is available at [localhost:3000](localhost:3000) by default.
+Website is available at [localhost:3000](http://localhost:3000) by default.
